@@ -6,7 +6,7 @@ const ComidasSchema = new Schema({
   nome: { type: String, required: true },
   descricao: { type: String },
   valor: { type: Number }, // opcional
-  imagem: {type: String }
+  imagem: {type: String, required: true}
 })
 
 // é a nossa coleção de comidas
